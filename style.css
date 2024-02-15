@@ -1,0 +1,75 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+
+/* styles for header */
+.product_header{
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.product_header>span{
+    font-size: large;
+    width: 100px;
+    display: inline-block;
+    height: 2px;
+    background-color: red;
+    margin-top: 5px;
+}
+
+
+/* styles for parent container */
+.container{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* styles for child items */
+img{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom:5px ;
+}
+.child{
+    width:250px;
+    border: 2px solid black;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    padding:5px ; */
+   text-align: center;
+
+}
+
+.child{
+    background-color: rgb(17, 115, 128);
+}
+
+.card_body{
+    line-height: 1.5rem;
+}
+
+.button{
+    display: inline-block;
+    width: 100px;
+   padding: 0.5rem;
+   border-radius: 20px;
+   text-align: center;
+   text-decoration: none;
+    background-color: rgb(187, 226, 114);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+
+}
